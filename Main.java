@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 class Main{
-  public static void main(){
+  public static void main(String[] args){
     System.out.println("Olá, o que você gostaria de criar?\nSeguradora(digite 1)\nVeiculo(digite 2)\nSinistro(digite 3)\nCliente(digite 4)\n");
     Scanner scan = new Scanner(System.in);
     String caso = scan.next();
