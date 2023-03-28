@@ -92,7 +92,7 @@ class Main{
        System.out.println("endereco: ");
        String endereco_cliente = scan.next();
        
-       Cliente novoCliente = new Cliente(null, null, null, Integer.parseInt(null), null);      
+       Cliente novoCliente = new Cliente(null, null, null, Integer.parseInt(idade_cliente), null);
        novoCliente.setNome(nome_cliente);
        novoCliente.setCpf(cpf_cliente);
        novoCliente.setDataNascimento(dataNascimento_cliente);
